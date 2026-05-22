@@ -7,7 +7,7 @@
                 </template>
             </van-button>
     
-            <h1>Signup</h1>
+            <h1>Create Account</h1>
         </div>
         <CustomErrorMessage :err-message="errorMessages[0] || ''" v-if="errorMessages.length >= 1" />
         <form @submit.prevent="signUp" class="expense-form">
@@ -17,7 +17,7 @@
             <CustomInput v-model="form.email" placeholder="Enter email" required />
             <PasswordInput v-model="form.password" placeholder="Enter password" required />
             <PasswordInput v-model="form.confirmPassword" placeholder="Confirm password" required />
-            <PrimaryButton :disabled="disableBtn" type="submit"> {{ disableBtn ? 'Signing up...' : 'Signup'}}</PrimaryButton>
+            <PrimaryButton :disabled="disableBtn" type="submit"> {{ disableBtn ? 'Creating account...' : 'Create'}}</PrimaryButton>
         </form>
     </div>
 </template>
