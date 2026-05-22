@@ -8,10 +8,11 @@
 </template>
 
 <script lang="ts" setup>
+import { type TagSize } from 'vant';
 const props = withDefaults(defineProps<{
     text?: string;
     isActive?: boolean;
-    size?: string;
+    size?: TagSize | undefined;
     icon?: string
 }>(), {
     isActive: false,

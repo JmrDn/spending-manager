@@ -57,7 +57,7 @@ const isShowDeleteConfirmPopup = ref<boolean>(false);
 
 const confirmDelete = () => {
     isShowDeleteConfirmPopup.value = false;
-    console.log(`Confirmed deletion of product with barcode: ${props.barcodeValue}`);
+    console.log(`Confirmed deletion of product ?`);
 }
 </script>
 
