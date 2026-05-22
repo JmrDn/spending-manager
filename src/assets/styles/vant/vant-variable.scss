@@ -1,0 +1,11 @@
+:root {
+    --van-tabbar-item-active-color: #{$primary-color};
+    --van-button-primary-background: #{$primary-color};
+    --van-button-primary-border-color: #{$primary-color};
+
+    // Search Vant Component
+    --van-search-content-background: #{$search-bg-color};
+
+    // Tab active identifier
+    --van-tabs-bottom-bar-color: transparent !important;
+}
